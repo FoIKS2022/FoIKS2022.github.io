@@ -145,7 +145,12 @@ h1,h2,h3 {padding-top: 6px; color: #000099; margin-bottom: 4px;}
 }
 .content p {font-family: Tahoma,sans-serif;}
 
-td { padding-right: 20px;}
+td { padding-right: 20px; }
+
+.content td {
+    vertical-align: top;
+    font: normal 80% Tahoma,sans-serif;
+}
 
 /* navigation */
 .navigation {
