@@ -28,7 +28,8 @@ body {
 
 p,code,ul {padding-bottom: 1.2em;}
 
-li {list-style: none;}
+li { list-style: none;}
+    
 
 h1 {font: normal 1.8em Tahoma,sans-serif;}
 h2 {font: normal 1.4em sans-serif;}
@@ -139,7 +140,7 @@ h1,h2,h3 {padding-top: 6px; color: #000099; margin-bottom: 4px;}
 	margin-bottom: 6px;
 }
 .content li {
-	list-style: url(img/li.gif);
+	list-style: square;
 	margin-left: 18px;
 }
 .content p {font-family: Tahoma,sans-serif;}
@@ -166,7 +167,7 @@ td { padding-right: 20px;}
 	padding: 0;
 /*	border-bottom: 1px solid #EAEADA;*/
 }
-.navigation li { } /*border-bottom: 1px solid #EAEADA;}*/
+.navigation li { list-style: none } /*border-bottom: 1px solid #EAEADA;}*/
 .navigation li a {
 	font-size: 1em;
 	color: #554;
